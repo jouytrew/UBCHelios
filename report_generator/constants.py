@@ -14,6 +14,7 @@ REGOLITH_CONVERSION_COEFFICIENT = 0.75
 D_He3_ELECTRICAL_CONVERSION_COEFFICIENT = 0.65
 # Energy retained from conversion, 0 is none, 1 is max
 
+# Heat capacity/specific heat
 c_LOW_REGOLITH = .21  # J/(gK)
 c_HIGH_REGOLITH = .88  # J/(gK)
 DESIRED_T = 873.15  # K, 600 C
