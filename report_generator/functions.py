@@ -1,7 +1,7 @@
-import constants as cs
+import constants_rev as cs
 
 
-# functions
+# functions.py
 
 
 def specific_heat(m, c, dT):
