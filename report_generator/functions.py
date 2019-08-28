@@ -1,4 +1,4 @@
-from report_generator import constants as cs
+import constants as cs
 
 
 # functions

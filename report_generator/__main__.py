@@ -1,4 +1,6 @@
-from report_generator import constants as cs, functions as fn, si_formatter as si
+import constants as cs
+import functions as fn
+import si_formatter as si
 
 print("Welcome to Mars Colony::Project HELIOS Calculations")
 

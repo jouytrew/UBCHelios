@@ -3,3 +3,7 @@ venv/
 .idea/UBCHelios.iml
 
 *.xml
+
+report_generator/__pycache__/
+
+revised_report_gen/__pycache__/
