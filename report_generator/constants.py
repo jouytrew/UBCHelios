@@ -28,7 +28,7 @@ REVENUE_DESIRED = 1e9  # $
 DAYS_IN_YEAR = 365.24
 # --- CONSTANTS --- #
 
-volatile_he3_ratio = {
+VOLATILE_He3_RATIO = {
     "N2": 500,
     "CH4": 1600,
     "CO2": 1700,

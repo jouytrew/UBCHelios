@@ -31,7 +31,7 @@ def print_report(revenue_desired=cs.REVENUE_DESIRED):
 
     print("Volatiles Generated: ")
     for volatile in cs.volatile_he3_ratio.keys():
-        print("  %s of" % si.return_with_si(he3_mass * cs.volatile_he3_ratio[volatile], 'g'), volatile)
+        print("  %s of" % si.return_with_si(he3_mass * cs.VOLATILE_He3_RATIO[volatile], 'g'), volatile)
 
 
 # print("%s of regolith per ton He-3" %
