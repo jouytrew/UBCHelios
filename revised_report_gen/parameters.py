@@ -72,5 +72,6 @@ class Parameters:
         print("\n--- VOLATILES PROCURED ---")
         for volatile in cs.VOLATILE_REGOLITH_RATIO.keys():
             print("%s of" % si.return_with_si(
-                _regolith_tonnage * 1e6 * cs.VOLATILE_REGOLITH_RATIO[volatile], 'g'), volatile)
+                _regolith_tonnage * 1e6 * cs.VOLATILE_REGOLITH_RATIO[volatile] *
+                cs.REGOLITH_RETAINMENT_RATE, 'g'), volatile)
 
